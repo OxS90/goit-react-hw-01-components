@@ -1,14 +1,6 @@
 import PropTypes from 'prop-types';
 
 const Profile = ({ username, tag, location, avatar, stats }) => {
-  // const className = clsx(
-  // 	"first",
-  // 	10,
-  // 	undefined && "second",
-  // 	true && "third",
-  // 	false ? "fourth" : "fifth"
-  // );
-
   return (
     <div className="profile">
       <div className="description">
