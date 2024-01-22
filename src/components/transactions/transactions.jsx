@@ -3,15 +3,15 @@ import styles from './Transactions.module.css';
 
 const TransactionHistory = ({ items }) => {
   return (
-    <table>
-      <thead>
+    <table className={styles.table}>
+      <thead className={styles.thead}>
         <tr>
           <th>Type</th>
           <th>Amount</th>
           <th>Currency</th>
         </tr>
       </thead>
-      <tbody>
+      <tbody className={styles.tbody}>
         {items.map(item => {
           return (
             <tr key={item.id}>

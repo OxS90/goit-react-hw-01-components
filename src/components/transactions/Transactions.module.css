@@ -1,24 +1,24 @@
-table {
+.table {
   width: 100%;
   border-collapse: collapse;
 }
 
-table td {
+.table td {
   text-align: center;
   padding: 10px;
 }
 
-thead {
+.thead {
   background-color: lightblue;
 }
-thead th {
+.thead th {
   text-align: center;
   padding: 10px;
 }
-tbody tr:nth-child(odd) {
+.tbody tr:nth-child(odd) {
   background-color: grey;
 }
 
-tbody tr:nth-child(even) {
+.tbody tr:nth-child(even) {
   background-color: lightgrey;
 }
